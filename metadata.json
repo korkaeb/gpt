@@ -1,0 +1,6 @@
+{
+  "name": "Anima Prompt Sorter",
+  "description": "Сортировка и структурирование промптов для Stable Diffusion чекпоинта Anima по 6 строго иерархическим категориям с помощью Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

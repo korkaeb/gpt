@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-fraunces {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .font-sans {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.panel {
+  background: #201e26;
+  border: 1px solid #3a3641;
+  border-radius: 6px;
+}
+
+.drawer-card {
+  background: #28252f;
+  border: 1px solid #3a3641;
+  border-radius: 6px;
+  position: relative;
+}
+
+.tag-chip {
+  background: #17161b;
+  border: 1px solid #3a3641;
+  padding: 3px 9px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: #efe8da;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #17161b;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3641;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d6a63f;
+}
+
+input, textarea {
+  background: #17161b !important;
+  border: 1px solid #3a3641 !important;
+  color: #efe8da;
+  outline: none;
+}
+input:focus, textarea:focus {
+  border-color: #d6a63f !important;
+}
+
+.btn-primary {
+  background: #d6a63f;
+  color: #17161b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  background: #e2b44f;
+  box-shadow: 0 0 12px rgba(214, 166, 63, 0.25);
+}
+
+.btn-secondary {
+  background: #3a3641;
+  color: #efe8da;
+  font-size: 12px;
+  transition: background 0.2s ease;
+}
+.btn-secondary:hover {
+  background: #4f4958;
+}
+
